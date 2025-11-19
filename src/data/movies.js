@@ -86,7 +86,7 @@ const movies = [
   {
     id: 7,
     title: 'The Matrix',
-    image: 'https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg',
+    image: 'https://flxt.tmsimg.com/assets/p22804_p_v10_ac.jpg',
     description: 'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.',
     releaseDate: '1999-03-31',
     type: ['Action', 'Sci-Fi'],
@@ -114,7 +114,7 @@ const movies = [
   {
     id: 9,
     title: 'Parasite',
-    image: 'https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.jpg',
+    image: 'https://i.pinimg.com/1200x/e6/de/03/e6de035cd3307b513e9bfe88a1457826.jpg',
     description: 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.',
     releaseDate: '2019-10-11',
     type: ['Thriller', 'Comedy', 'Drama'],
@@ -128,7 +128,7 @@ const movies = [
   {
     id: 10,
     title: 'Schindler\'s List',
-    image: 'https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_poster.jpg',
+    image: 'https://i.pinimg.com/736x/16/dc/f0/16dcf03b7244c896d4c149b250913f0f.jpg',
     description: 'In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce.',
     releaseDate: '1993-12-15',
     type: ['Biography', 'Drama', 'History'],
@@ -156,7 +156,7 @@ const movies = [
   {
     id: 12,
     title: 'The Lord of the Rings: The Return of the King',
-    image: 'https://upload.wikimedia.org/wikipedia/en/b/be/The_Lord_of_the_Rings_-The_Return_of_the_King%282003%29.jpg',
+    image: 'https://i.pinimg.com/736x/a9/6a/00/a96a002732d97f46655bb7ed7a616db5.jpg',
     description: 'Gandalf and Aragorn lead the World of Men against Sauron\'s army to draw his gaze from Frodo and Sam as they approach Mount Doom.',
     releaseDate: '2003-12-17',
     type: ['Action', 'Adventure', 'Fantasy'],
