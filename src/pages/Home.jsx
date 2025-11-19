@@ -3,10 +3,12 @@ import image1 from '../assets/images/image1.jpg'
 import image2 from '../assets/images/image2.jpg'
 import image3 from '../assets/images/image3.jpg'
 import Card from '../components/Card.jsx'
+import NavBar from '../components/Navbar.jsx'
 
 export default function Home() {
     return (
         <>
+            <NavBar/>
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
