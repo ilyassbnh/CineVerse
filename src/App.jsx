@@ -1,16 +1,22 @@
-import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import { BrowserRouter , Router , Route } from 'react-router-dom'
+import Navbar from './components/Navbar.jsx'
+import Cards from './components/Card.jsx'
+import Details from './pages/Details.jsx'
+import Contact from './pages/Contact.jsx'
+import Home from './pages/Home.jsx'
 
 function App() {
-
   return (
-    <BrowserRouter>
-      <Router>
-        <Route>
-        </Route>
-      </Router>
-    </BrowserRouter>
+    <>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Cards/>} />
+        <Route path="/details/:id" element={<Details/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/home" element={<Home/>} />
+      </Routes>
+    </>
   )
 }
 
