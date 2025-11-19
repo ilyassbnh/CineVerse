@@ -1,15 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 import { BrowserRouter , Router , Route } from 'react-router-dom'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <BrowserRouter>
-      <Router>
-        <Route>
-        </Route>
-      </Router>
+      <Home/>
     </BrowserRouter>
   )
 }
