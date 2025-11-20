@@ -28,7 +28,6 @@ export default function Home() {
 
     return (
         <>
-            {/* CAROUSEL SECTION (Uses your provided code, which is already correctly using className) */}
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">

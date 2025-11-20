@@ -62,7 +62,6 @@ export default function Contact() {
       setIsSubmitted(true)
       console.log('Form submitted:', formData)
 
-      // Simulate API call delay and reset form
       setTimeout(() => {
         setFormData({ name: '', email: '', message: '' })
         setIsSubmitted(false)
@@ -97,7 +96,6 @@ export default function Contact() {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    // FIXED: Use backticks for the template literal
                     className={`form-control ${errors.name ? 'is-invalid' : ''}`}
                     placeholder="Your full name"
                   />
@@ -115,7 +113,6 @@ export default function Contact() {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    // FIXED: Use backticks for the template literal
                     className={`form-control ${errors.email ? 'is-invalid' : ''}`}
                     placeholder="your.email@example.com"
                   />
@@ -133,7 +130,6 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     rows="6"
-                    // FIXED: Use backticks for the template literal
                     className={`form-control ${errors.message ? 'is-invalid' : ''}`}
                     placeholder="Your message (minimum 10 characters)"
                   />
